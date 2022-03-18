@@ -1,5 +1,15 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Init Proyect with 
+    npx create-next-app platzistore
+        move code (public, styles, pages) to /src
+        create jsconfig.js -> add config new baseUrl src
+        add .eslintignore
+        modify .eslintrc.json to .eslintrc.js
+        add prettier.config.js
+        install npm i prettier eslint-plugin-prettier eslint-plugin-jsx-a11y eslint-config-prettier
+            eslint-config-next
+
 ## Getting Started
 
 First, run the development server:
