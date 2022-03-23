@@ -10,6 +10,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
         install npm i prettier eslint-plugin-prettier eslint-plugin-jsx-a11y eslint-config-prettier
             eslint-config-next
 
+    https://www.simicart.com/manifest-generator.html/ PWA
+
 ## Getting Started
 
 First, run the development server:
