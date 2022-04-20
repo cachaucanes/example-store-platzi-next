@@ -11,7 +11,7 @@ module.exports = withPWA({
   },
   reactStrictMode: true,
   images: {
-    domains: ['placeimg.com'],
+    domains: ['placeimg.com', 'api.lorem.space'],
   },
   // env: {
   //   customKey: 'customValue'

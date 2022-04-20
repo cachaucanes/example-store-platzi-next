@@ -4,6 +4,7 @@ import AppContext from '../context/AppContext';
 import addToCartImage from '@icons/bt_add_to_cart.svg';
 import addedToCartImage from '@icons/bt_added_to_cart.svg';
 import styles from '@styles/ProductItem.module.scss';
+import imageNotFound from '@icons/image-not-found.svg';
 
 const ProductItem = ({ product }) => {
   const { state, addToCart } = useContext(AppContext);
@@ -15,11 +16,21 @@ const ProductItem = ({ product }) => {
 
   return (
     <div className={styles.ProductItem}>
-      {(product?.images[0] && product?.images[0].includes('https')) ?
-        <Image width={240} height={240} src={product?.images[0]} alt={product.title} />
-        : <Image width={240} height={240} src={product?.category.image} alt={product.title} />
+      {product?.category?.image ? (
+        <Image
+          width={240}
+          height={240}
+          src={product?.category.image}
+          alt={product.title} />
+      ) :
+        (
+          <Image
+            src={imageNotFound}
+            width={240} height={240}
+            alt='Image not found'
+          />
+        )
       }
-      {/* <Image width={240} height={240} src={product?.category.image} alt={product.title} /> */}
       <div className={styles['product-info']}>
         <div>
           <p>${product.price}</p>
