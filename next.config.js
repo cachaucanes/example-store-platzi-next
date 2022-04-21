@@ -11,6 +11,8 @@ module.exports = withPWA({
   },
   reactStrictMode: true,
   images: {
+    loader: 'akamai',
+    path: '',
     domains: ['placeimg.com', 'api.lorem.space'],
   },
   // env: {
