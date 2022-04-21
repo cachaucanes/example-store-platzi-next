@@ -23,6 +23,7 @@ function MyApp({ Component, pageProps }) {
           gtag('config', 'G-9M7D0DXS0L');`}
       </Script> */}
       <Head>
+        <link rel='shortcut icon' href='favicon.ico' />
         <title>Store</title>
       </Head>
       <Header />
