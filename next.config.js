@@ -15,6 +15,8 @@ module.exports = withPWA({
     path: '',
     domains: ['placeimg.com', 'api.lorem.space'],
   },
+  basePath: '/nextjs-pages', //To deploy gh-pages
+  assetPrefix: '/nextjs-pages', //To deploy gh-pages
   // env: {
   //   customKey: 'customValue'
   // },
