@@ -12,11 +12,11 @@ module.exports = withPWA({
   reactStrictMode: true,
   images: {
     loader: 'akamai',
-    path: '/',
+    path: '',
     domains: ['placeimg.com', 'api.lorem.space'],
   },
-  basePath: '/example-store-platzi-next', //To deploy gh-pages (nombre de repositorio)
-  assetPrefix: '/example-store-platzi-next', //To deploy gh-pages (nombre de repositorio)
+  //basePath: '/example-store-platzi-next', //To deploy gh-pages (nombre de repositorio)
+  //assetPrefix: '/example-store-platzi-next', //To deploy gh-pages (nombre de repositorio)
   // env: {
   //   customKey: 'customValue'
   // },
