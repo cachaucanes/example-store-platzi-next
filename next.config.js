@@ -15,7 +15,7 @@ module.exports = withPWA({
     path: '',
     domains: ['placeimg.com', 'api.lorem.space'],
   },
-  basePath: 'https://cachaucanes.github.io/example-store-platzi-next/', //To deploy gh-pages (nombre de repositorio)
+  basePath: '/example-store-platzi-next', //To deploy gh-pages (nombre de repositorio)
   assetPrefix: 'https://cachaucanes.github.io/example-store-platzi-next', //To deploy gh-pages (nombre de repositorio)
   // env: {
   //   customKey: 'customValue'
